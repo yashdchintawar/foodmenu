@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import FoodMenu from "./components/Basics/food-menu";
 
-function App() {
+export const App = () => {
   return (
-    <div><h1> Yash Chintawar </h1></div>
-  );
+    <FoodMenu/>
+  )
 }
 
 export default App;
